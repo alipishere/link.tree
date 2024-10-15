@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d03e8;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #e21f1f;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #1d2228;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/originals/1a/ab/17/1aab17124bee3720d418fdc9fd0c9816.jpg" alt="Profile Picture" class="profile-picture">
+        <h1>Andi Muhammad Alif</h1>
+        <p>@andialif</p>
+
+        <div class="links">
+            <a href="https://instagram.com" class="link">Instagram</a>
+            <a href="https://twitter.com" class="link">Twitter</a>
+            <a href="https://linkedin.com" class="link">LinkedIn</a>
+            <a href="https://yourwebsite.com" class="link">Website</a>
+        </div>
+    </div>
+</body>
+</html>
+
